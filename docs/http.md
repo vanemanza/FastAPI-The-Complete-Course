@@ -24,5 +24,10 @@ There are some additional request methods:
 
 **2xx** -> **Success: Request  successfully  complete**. It means the exchange between  the  client and the server were successful.
 
-**3xx** -> **Redirection: Further action must be complete**. 
+**3xx** -> **Redirection: Further action must be complete**. It Means a redirections which requires the client to complete further action.
+ 
+**4xx** -> **Client Errors: An error  was caused by the request from the client**. This could be do to many different responses, usually occurs during a syntax data, and all of a format  cannot be understood from the server.
+
+**5xx** -> **Server Errors: An error  has ocurred on the  server**. This could to be because of syntax or application failure on the server.
+
 
